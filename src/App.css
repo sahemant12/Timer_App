@@ -49,6 +49,9 @@
 .container{
   position: relative;
 }
+#color{
+  color: white;
+}
 body {
   font-family: 'Arial', sans-serif;
   text-align: center;

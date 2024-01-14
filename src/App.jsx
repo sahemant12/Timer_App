@@ -89,7 +89,7 @@ const TimerApp = () => {
             {timeEntries
               .sort((a, b) => b - a)
               .map((entry, index) => (
-                <li key={index}>{`Interval ${index + 1}: ${updateEntryTime(entry)}`}</li>
+                <li key={index} id="color">{`Concentration_time ${index + 1}: ${updateEntryTime(entry)}`}</li>
               ))}
           </ul>
         </div>
